@@ -1,0 +1,17 @@
+[
+  {
+    "repository":  "device_qcom_common",
+    "target_path": "device/qcom/common",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "kernel_motorola_msm8226",
+    "target_path": "kernel/motorola/msm8226",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "remote":      "aoscp"
+  }
+]

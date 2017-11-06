@@ -91,10 +91,6 @@ EXTENDED_FONT_FOOTPRINT := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage hardware
-BOARD_HARDWARE_CLASS += \
-    $(VENDOR_PATH)/lineagehw
-
 # Memory
 MALLOC_SVELTE := true
 

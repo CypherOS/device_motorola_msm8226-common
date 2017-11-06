@@ -20,8 +20,7 @@ $(call inherit-product, vendor/motorola/msm8226-common/msm8226-common-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-#    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -98,8 +97,7 @@ PRODUCT_PACKAGES += \
     camera.msm8226 \
     libxml2 \
     libshims_camera \
-    libshims_sensorlistener \
-    Snap
+    libshims_sensorlistener
 
 # DRM
 PRODUCT_PACKAGES += \
