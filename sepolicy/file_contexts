@@ -8,6 +8,9 @@
 # Camera
 /data/cam_socket([0-9])+                                    u:object_r:camera_socket:s0
 
+# Dev Devices
+/dev/msm_vidc.*                                             u:object_r:video_device:s0
+
 # MPDecision
 /data/system/default_values                                 u:object_r:mpctl_data_file:s0
 /dev/socket/mpctl                                           u:object_r:mpctl_socket:s0
