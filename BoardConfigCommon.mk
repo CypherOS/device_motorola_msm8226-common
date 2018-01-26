@@ -79,6 +79,9 @@ BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_NO_CHARGER_LED := true
 
+# Dependencies
+ALLOW_MISSING_DEPENDENCIES=true
+
 # Display
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_USES_C2D_COMPOSITION := true
