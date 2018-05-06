@@ -100,6 +100,9 @@ PRODUCT_PACKAGES += \
     libshims_sensorlistener \
     Camera2
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/hacks/hdrhax:system/vendor/etc/hdrhax
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
