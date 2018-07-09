@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     libshims_sensorlistener \
     Camera2
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Dalvik properties
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=8m \
